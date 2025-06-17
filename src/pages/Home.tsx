@@ -4,15 +4,16 @@ import {
   IonPage,
   IonTitle,
   IonToolbar,
+  IonGrid,
 } from "@ionic/react";
-
+import CHome from "../components/auth/CHome";
+import "./Home.css";
 const Home: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-          <IonTitle>Contact</IonTitle>
+        <IonToolbar className="custom-toolbar">
+          <IonTitle class="ion-text-center">Connected</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -21,7 +22,7 @@ const Home: React.FC = () => {
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        ici composant home
+        <CHome />
       </IonContent>
     </IonPage>
   );

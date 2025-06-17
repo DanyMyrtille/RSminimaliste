@@ -75,6 +75,7 @@ export default function CLogin() {
               fullWidth
               variant="contained"
               color="primary"
+              href="/Home"
               sx={{ textTransform: "none", py: 1.2 }}>
               Log in
             </Button>
