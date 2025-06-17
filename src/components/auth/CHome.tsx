@@ -51,7 +51,7 @@ const Home: React.FC = () => {
           style={{ overflowX: "scroll", flexWrap: "nowrap" }}>
           <IonCol size="auto" className="story">
             <IonAvatar>
-              <img src="/assets/you.jpg" alt="You" />
+              <img src="/public/pic7.jpg" alt="You" />
             </IonAvatar>
             <IonText>You</IonText>
           </IonCol>
@@ -70,14 +70,14 @@ const Home: React.FC = () => {
         <div className="post">
           <IonRow className="post-header">
             <IonAvatar>
-              <img src="/assets/avatar1.jpg" />
+              <img src="/public/pic6.jpg" />
             </IonAvatar>
             <IonLabel>
               <h2>party_arty_dk</h2>
             </IonLabel>
           </IonRow>
 
-          <IonImg src="/assets/art.jpg" className="post-img" />
+          <IonImg src="/public/pic5.jpg" className="post-img" />
 
           <IonText className="post-caption">
             <p>
