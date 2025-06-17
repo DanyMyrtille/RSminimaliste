@@ -6,25 +6,21 @@ import {
   IonToolbar,
 } from "@ionic/react";
 
-const Home: React.FC = () => {
+import CSignUp from "../components/auth/CSignUp";
+
+const SignUp: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-          <IonTitle>Contact</IonTitle>
-        </IonToolbar>
-      </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        ici composant home
+        <CSignUp />
       </IonContent>
     </IonPage>
   );
 };
 
-export default Home;
+export default SignUp;

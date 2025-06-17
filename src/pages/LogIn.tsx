@@ -6,25 +6,21 @@ import {
   IonToolbar,
 } from "@ionic/react";
 
-const Home: React.FC = () => {
+import CLogin from "../components/auth/CLogin";
+
+const Login: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-          <IonTitle>Contact</IonTitle>
-        </IonToolbar>
-      </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        ici composant home
+        <CLogin />
       </IonContent>
     </IonPage>
   );
 };
 
-export default Home;
+export default Login;
