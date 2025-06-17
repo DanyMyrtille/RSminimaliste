@@ -80,14 +80,14 @@ export default function CSignUp() {
               variant="contained"
               color="primary"
               sx={{ textTransform: "none", py: 1.2 }}>
-              Log in
+             Sign up
             </Button>
 
             <Box textAlign="center" mt={3}>
               <Typography variant="body2">
                 Don’t have an account?
                 <Link href="/logIn" underline="hover">
-                  Sign up
+                 Log in
                 </Link>
               </Typography>
             </Box>
