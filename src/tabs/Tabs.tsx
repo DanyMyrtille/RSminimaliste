@@ -21,12 +21,20 @@ const Tabs: React.FC = () => (
 
     <IonTabBar slot="bottom">
       <IonTabButton tab="home" href="/home">
-        <IonIcon icon={home} />
+        <IonIcon icon={person} />
         <IonLabel>Accueil</IonLabel>
       </IonTabButton>
       <IonTabButton tab="login" href="/login">
         <IonIcon icon={person} />
         <IonLabel>Profil</IonLabel>
+      </IonTabButton>
+      <IonTabButton tab="inbox" href="/inbox">
+        <IonIcon icon={person} />
+        <IonLabel>Inbox</IonLabel>
+      </IonTabButton>
+      <IonTabButton tab="account" href="/account">
+        <IonIcon icon={person} />
+        <IonLabel>Account</IonLabel>
       </IonTabButton>
     </IonTabBar>
   </IonTabs>

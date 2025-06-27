@@ -1,0 +1,188 @@
+.inbox-content {
+  padding: 1rem;
+}
+
+/* --- Searchbar --- */
+ion-searchbar {
+  --border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* --- Stories (avatars en haut) --- */
+.user-stories {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  text-align: center;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.story .avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story .avatar.online {
+  border-color: #4cd137;
+}
+
+.story img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story span {
+  margin-top: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+/* --- Onglets Messages / Calls --- */
+.tab-buttons {
+  display: flex;
+  background: #f2f2f2;
+  border-radius: 20px;
+  margin: 0.5rem 0 1rem;
+  padding: 4px;
+  gap: 4px;
+}
+
+.tab {
+  flex: 1;
+  padding: 0.6rem 0;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 15px;
+  background: white;
+  border: none;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.tab.active {
+  background: black;
+  color: white;
+}
+
+/* --- Liste de conversations --- */
+.chat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.chat-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 0.6rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.chat-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.chat-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chat-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.chat-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.chat-message {
+  font-size: 0.85rem;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* --- Barre de navigation en bas --- */
+ion-tab-bar {
+  border-top: 1px solid #ddd;
+  padding: 0.3rem 0;
+}
+
+ion-tab-button {
+  --color-selected: black;
+  --color: gray;
+  font-size: 1.3rem;
+}
+.user-stories {
+  background: white;
+}
+.user-stories {
+  background: white;
+}
+ion-tab-bar {
+  --background: #fff;
+  --color: #999;
+  --color-selected: #000;
+  border-top: none;
+  height: 60px;
+  padding-bottom: env(safe-area-inset-bottom);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ion-tab-button {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+ion-tab-button ion-icon {
+  font-size: 24px;
+}
+
+ion-tab-button ion-label {
+  display: none;
+}
+
+a {
+  text-decoration: none;  /* enlève le soulignement */
+ 
+}

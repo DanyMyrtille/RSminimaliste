@@ -33,7 +33,7 @@ import {
 import "../../pages/Home.css";
 import { NavLink } from "react-router-dom";
 
-const Home: React.FC = () => {
+const CHome: React.FC = () => {
   const stories = [
     { username: "mariii05", image: "/public/Pic1.jpg" },
     { username: "lea.98", image: "/public/pic3.jpg" },
@@ -215,7 +215,7 @@ const Home: React.FC = () => {
                 <IonButton href="/add">
                   <IonIcon icon={addCircleOutline} />
                 </IonButton>
-                <IonButton href="/chat">
+                <IonButton href="/inbox">
                   <IonIcon icon={chatbox} />
                 </IonButton>
                 <IonButton href="/account">
@@ -227,4 +227,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default CHome;

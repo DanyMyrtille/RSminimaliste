@@ -26,6 +26,9 @@ import Login from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
 import Explore from "./pages/Explore";
 import Add from "./pages/Add";
+import Inbox from "./pages/Inbox";
+import Inbox2 from "./pages/Inbox2";
+import Account from "./pages/Account";
 
 setupIonicReact();
 
@@ -38,6 +41,9 @@ const App: React.FC = () => (
         <Route path="/home" component={Home} />
         <Route path="/explore" component={Explore} />
         <Route path="/add" component={Add} />
+        <Route path="/inbox" component={Inbox} />
+        <Route path="/inbox2" component={Inbox2} />
+        <Route path="/account" component={Account} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

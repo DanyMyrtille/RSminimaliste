@@ -111,7 +111,7 @@ const CExplore: React.FC = () => {
           <IonButton href="/add">
             <IonIcon icon={addCircleOutline} />
           </IonButton>
-          <IonButton href="/chat">
+          <IonButton href="/inbox">
             <IonIcon icon={chatboxOutline} />
           </IonButton>
           <IonButton href="/account">
